@@ -11,7 +11,7 @@ public class ElasticMqTest {
 	@Test
 	public void testQueueCreation() {
 
-		String queueName = "testQueue";
+		String queueName = "queue1";
 
 		System.setProperty("config.resource", "custom.conf");
 		System.setProperty("org.slf4j.simpleLogger.defaultLogLevel", "debug");
